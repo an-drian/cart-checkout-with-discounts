@@ -1,5 +1,5 @@
 defmodule Checkout do
-  @path_to_json "../prices.json"
+  @path_to_json "./prices.json"
 
   @type cart :: %{
           voucher: non_neg_integer(),
